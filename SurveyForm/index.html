@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey Form - Resposive Web Design</title>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <!-- css -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <!-- NOTE Header of Page -->
+            <header>
+                <h1 id="title">Survey Form - Resposive Web Design</h1>
+                <p id="description">This is a survey form for completing the Responsive Web Design course</p>
+            </header>
+            <!-- NOTE Form -->
+            <form id="survey-form" action="">
+                <!-- Name -->
+                <div id="form-group">
+                    <label id="name-label" for="name">Name</label>
+                    <input class="form-field" id="name" type="text" placeholder="Enter your name" required />
+                </div> 
+                <!-- Email -->
+                <div id="form-group">
+                    <label id="email-label" for="email">Name</label>
+                    <input class="form-field" id="email" type="email" placeholder="Enter your email" required />
+                </div>
+                <!-- Number -->
+                <div id="form-group">
+                    <label id="number-label" for="number">Age</label>
+                    <input class="form-field" id="number" type="number" min="15" max="100" placeholder="Enter your age" />
+                </div> 
+                <!-- Select -->
+                <div id="form-group">
+                    <p>What is your education level?</p>
+                    <select class="form-field" id="dropdown" name="education-level" required>
+                        <option disable selected value>Select an option</option>
+                        <option value="primary-school">Primary School</option>
+                        <option value="high-school">High School</option>
+                        <option value="university">University</option>
+                        <option value="technician">Technician</option>
+                        <option value="postgraduate">Postgraduate</option>
+                        <option value="master">Master Degree</option>
+                        <option value="doctorate">Doctorate Degree</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <!-- Radio button -->
+                <div id="form-group">
+                    <p>Which function do you identify with the most?</p>
+                    <label><input class="form-radio" name="user-function" type="radio" value="designer" checked>Designer</label>
+                    <label><input class="form-radio" name="user-function" type="radio" value="frontend">Frontend Developer</label>
+                    <label><input class="form-radio" name="user-function" type="radio" value="backend">Backend Developer</label>
+                    <label><input class="form-radio" name="user-function" type="radio" value="full-stack">Full Stack Developer</label>
+                    <label><input class="form-radio" name="user-function" type="radio" value="other">Other</label>
+                </div> 
+                <!-- Checkbox -->
+                <div id="form-group">
+                    <p>What FreeCodeCamp courses have you taken?</p>
+                    <label><input class="form-checkbox" name="courses" type="checkbox" value="web-design-responsive"> Web Design Responsive Certification</label>
+                    <label><input class="form-checkbox" name="courses" type="checkbox" value="javascript"> JavaScript Algorithms and Data Sctructures Certification</label>
+                    <label><input class="form-checkbox" name="courses" type="checkbox" value="libraries"> Frontend Development Libraries Certification</label>
+                    <label><input class="form-checkbox" name="courses" type="checkbox" value="data-visualization"> Data Visualization Certification</label>
+                    <label><input class="form-checkbox" name="courses" type="checkbox" value="api-microservices"> API and Microservices Certification</label>
+                    <label><input class="form-checkbox" name="courses" type="checkbox" value="quality-assurance"> Quality Assurance Certification</label>
+                </div>
+                <!-- Textarea -->
+                <div id="form-group">
+                    <p>Any comments or suggestions?</p>
+                    <textarea class="form-textarea" id="comments" name="comment" placeholder="Enter your comments or suggestions" ></textarea>
+                </div>
+                <!-- Button -->
+                <div id="form-group">
+                    <button class="form-button" id="submit" type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    </body>
+</html>
