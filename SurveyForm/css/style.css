@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif, 'Arial';
+    font-size: 12px;
+    background: url(../images/bg.jpg) fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    margin: 4em 20em 10em 20em;
+}
+
+header {
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+#title {
+    padding: 1em 0 0.5em 0;
+    font-size: 4em;
+}
+
+header p {
+    font-size: 2em;
+}
+
+/* Form */
+#survey-form {
+    background-color: rgba(0, 0, 0, 0.87);
+    color: #ffffff;
+    padding: 2em 4em;
+}
+label {
+    display: flex;
+}
+.form-field,
+.form-textarea {
+    display: block;
+    width: 100%;
+    padding: 0.5em 1em;
+    margin: 0.5em 0;
+}
+#form-group {
+    padding: 0.5em 0;
+}
+#form-group p {
+    padding-bottom: 0.5em;
+    font-weight: 800;
+    font-size: 1.5em;
+}
+
+#name-label, 
+#email-label,
+#number-label {
+    font-weight: 800;
+    font-size: 1.5em;
+}
+
+#form-group label input {
+    font-size: 1.5em;
+}
+
+button {
+    display: block;
+    border: none;
+    padding: 1em 2em;
+    border-radius: 0.25em;
+    color: #ffffff;
+    width: 100%;
+    background:  #37af65;
+}
