@@ -7,4 +7,4 @@
 ### Links para o Vercels
 -  https://freecodecamp-tribute-page-git-main-carolinepsantos.vercel.app/
 -  https://freecodecamp-tribute-page-snowy.vercel.app/
--   hhtps://freecodecamp-tribute-page-carolinepsantos.vercel.app/
+-   hhtps://freecodecamp-tribute-page-carolinepsantos.vercel.app
