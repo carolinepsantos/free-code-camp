@@ -5,4 +5,4 @@
 You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is recommended because that is what the lessons have covered so far and you should get some practice with plain CSS.
 
 ### Base Project Outcome
-<img alt="Card Desktop" src="https://i.imgur.com/sZO16G4.png" width="500"></img>
+<img alt="Base Project" src="https://i.imgur.com/hR4sFin.png" width="500"></img>
